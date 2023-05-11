@@ -1,3 +1,6 @@
-const addon = require('./build/Release/addon')
+const { add } = require('./build/Release/add')
+const { hello } = require('./build/Release/hello')
 
-console.log('adição', addon.add(1,  2, 1, 10))
+
+console.log(hello())
+console.log('adição', add(1,  2, 1, 10))
