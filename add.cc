@@ -1,4 +1,3 @@
-// addon.cc
 #include <node.h>
 
 namespace demo {
