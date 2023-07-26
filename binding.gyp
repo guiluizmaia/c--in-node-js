@@ -11,6 +11,14 @@
         {
             "target_name": "callback",
             "sources": ["callbacks.cc"]
+        },
+        {
+            "target_name": "createObject",
+            "sources": ["object.cc"]
+        },
+        {
+            "target_name": "createObject2",
+            "sources": ["object2.cc"]
         }
     ]
 }
