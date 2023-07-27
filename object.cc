@@ -36,4 +36,4 @@ void Init(Local<Object> exports, Local<Object> module) {
 
 NODE_MODULE(NODE_GYP_MODULE_NAME, Init)
 
-}  // namespace demo
+} 

@@ -19,6 +19,10 @@
         {
             "target_name": "createObject2",
             "sources": ["object2.cc"]
+        },
+        {
+            "target_name": "createFunction",
+            "sources": ["function.cc"]
         }
     ]
 }
