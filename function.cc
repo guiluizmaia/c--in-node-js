@@ -17,7 +17,7 @@ namespace demo
     {
         Isolate *isolate = args.GetIsolate();
         args.GetReturnValue().Set(String::NewFromUtf8(
-                                      isolate, "Function Factory")
+                                      isolate, "Hello World Function")
                                       .ToLocalChecked());
     }
 

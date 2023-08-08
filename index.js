@@ -16,6 +16,7 @@ console.log('adição ', add(1,  2, 1, 10))
 callback((number1, number2) => {
     console.log(number1)
     console.log(number2)
+    console.log(number1 + number2)
 })
 
 const obj = ObjectFactory("Guilherme Luiz", "Maia", 23)
